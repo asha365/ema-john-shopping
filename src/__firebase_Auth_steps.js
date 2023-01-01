@@ -4,6 +4,9 @@
  * 3. create a new file firebase.init.js in the src folder
  * 4. import getAuth and export auth in firebase.init.js 
  * 5. create two component login, and sign up
+ * 6. complete design part login
+ * 7. complete design part sign up
+ * 8. create handle submit and handle field
 */
 
 /**

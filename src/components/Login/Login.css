@@ -8,6 +8,9 @@
     justify-content: center;
     color: #2A414F;
     margin-top: 100px;
+    box-shadow: 0 10px 20px -5px rgba(255, 224, 179, 1),
+    -10px 0 20px -5px rgba(255, 224, 179, 1);
+    margin-bottom: 20px;
 }
 .form-title{
     color: #2A414F;
