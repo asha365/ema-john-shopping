@@ -8,6 +8,7 @@ const SignUp = () => {
     const [password, setPassword] = useState('');
     const [confirmPassword, setConfirmPassword] = useState('');
     const [error, setError] = useState('');
+    
 
     const handleEmailBlur = event =>{
         setEmail(event.target.value);
@@ -23,6 +24,10 @@ const SignUp = () => {
         event.preventDefault();
         if(password !== confirmPassword){
             setError('your two password did not matched');
+            return;
+        }
+        if(password.length < 8){
+            setError('password must have 8 character or longer');
             return;
         }
     }
@@ -41,6 +46,7 @@ const SignUp = () => {
                         <br/>
                         <input onBlur={handlePasswordBlur} type="password" name="password" id="" required/>
                     </div>
+                    
                     <div className='input-group'>
                         <label htmlFor="confirm-password">Confirm Password</label>
                         <br/>

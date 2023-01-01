@@ -7,6 +7,8 @@
  * 6. complete design part login
  * 7. complete design part sign up
  * 8. create handle submit and handle field
+ * 9. password validation
+ * 9. install react firebase hooks using command 
 */
 
 /**
