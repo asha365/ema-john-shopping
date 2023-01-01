@@ -3,7 +3,7 @@
  * 2. install firebase using command npm install firebase
  * 3. create a new file firebase.init.js in the src folder
  * 4. import getAuth and export auth in firebase.init.js 
- * 5. 
+ * 5. create two component login, and sign up
 */
 
 /**

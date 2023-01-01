@@ -1,0 +1,88 @@
+.form-container{
+    width: 600px;
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    color: #2A414F;
+    margin-top: 100px;
+}
+.form-title{
+    color: #2A414F;
+    font-size: 35px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+.input-group{
+    display: block;
+    margin-bottom: 30px;
+    
+}
+.input-group label{
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+.input-group input{
+    width: 415px;
+    height: 54px;
+    border: 1px solid #95A0A7;
+    font-size: 17px;
+    color: #2A414F;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+.form-submit{
+    width: 415px;
+    height: 54px;
+    margin-top: 20px;
+    background-color: rgba(255, 153, 0, 0.3);
+    cursor: pointer;
+    border: none;
+    color: rgba(14, 22, 26, 1);
+    font-size: 21px;
+    width: 100%;
+}
+.form-submit:hover{
+    background-color: rgba(255, 153, 0, 0.5);
+}
+.create-new-account{
+    text-align: center;
+
+}
+.create-new-account a{
+    text-decoration: none;
+    color: rgba(255, 153, 0, 1);
+    
+}
+.line{
+    text-align: center;
+}
+.line span{
+    padding: 15px;
+}
+.google-signIn-button{
+    width: 415px;
+    height: 55px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid #95A0A7;
+    color: #2A414F;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.google-signIn-button img{
+    width: 50px;
+    height: 50px;
+}
+.google-signIn-button span{
+    line-height: 50px;
+}
