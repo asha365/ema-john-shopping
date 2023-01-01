@@ -10,6 +10,8 @@
  * 9. password validation
  * 10. install react firebase hooks using command npm install --save react-firebase-hooks
  * 11. create user - Authentication hooks > useCreateUserWithEmailAndPassword
+ * 12. email verification 
+ * 13. signInWithEmailAndPassword for login. login page add event handler and show error use navigate  
 */
 
 /**
