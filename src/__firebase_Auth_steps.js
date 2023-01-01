@@ -8,7 +8,8 @@
  * 7. complete design part sign up
  * 8. create handle submit and handle field
  * 9. password validation
- * 9. install react firebase hooks using command 
+ * 10. install react firebase hooks using command npm install --save react-firebase-hooks
+ * 11. create user - Authentication hooks > useCreateUserWithEmailAndPassword
 */
 
 /**
